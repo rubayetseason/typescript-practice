@@ -1,1 +1,1 @@
-// let myName: string;
+let myName: string;

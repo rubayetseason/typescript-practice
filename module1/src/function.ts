@@ -1,5 +1,5 @@
-// const hiFriends = (...friends: string[]): void => {
-//   friends.forEach((friend: string) => console.log(`hello ${friend}`));
-// };
+const hiFriends = (...friends: string[]): void => {
+  friends.forEach((friend: string) => console.log(`hello ${friend}`));
+};
 
-// hiFriends("kashem", "eashem", "cashem", "bashem", "ashem", "vem");
+hiFriends("kashem", "eashem", "cashem", "bashem", "ashem", "vem");

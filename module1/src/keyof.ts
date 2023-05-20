@@ -1,18 +1,18 @@
-// type PersonType = {
-//   name: string;
-//   age: number;
-//   address: string;
-// };
+type PersonType = {
+  name: string;
+  age: number;
+  address: string;
+};
 
-// type newType = "name" | "age" | "address";
+type newType = "name" | "age" | "address";
 
-// type newTypeUsingKey = keyof PersonType;
+type newTypeUsingKey = keyof PersonType;
 
-// const a: newType = "address";
-// const b: newTypeUsingKey = "address";
+const a: newType = "address";
+const b: newTypeUsingKey = "address";
 
-// function getProperty<X, Y extends keyof X>(obj: X, key: Y) {
-//   return obj[key];
-// }
+function getProperty<X, Y extends keyof X>(obj: X, key: Y) {
+  return obj[key];
+}
 
-// const data = getProperty({ name: "x", age: 123456789 }, "age");
+const data = getProperty({ name: "x", age: 123456789 }, "age");

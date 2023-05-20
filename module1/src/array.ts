@@ -1,3 +1,3 @@
-// const datum = ["abul", 123, true];
+const datum = ["abul", 123, true];
 
-// const user: [string, number] = ["season", 123];
+const user1213: [string, number] = ["season", 123];
